@@ -222,7 +222,7 @@ public class GameState : Monobehaviour
                }
                else if (board [col-i][row] == 'b')
                {
-               possibleMoves.Add ("W");
+                  possibleMoves.Add ("W");
                   break;
                }
             }
@@ -235,7 +235,7 @@ public class GameState : Monobehaviour
             {
                if (board [col+i][row] == 'w')
                {
-                   continue;
+                  continue;
                }
                else if (board [col+i][row] == 'b')
                {
