@@ -170,8 +170,8 @@ public class GameState : Monobehaviour
 
 
 
-   //For column and row passed in from UI, determines if move possible
-   public List<str>  isPossible (int col, int row, char whosTurn)
+   //For column and row passed in from UI, determine possible moves
+   public List<str>  possibleMoves (int col, int row, char whosTurn)
    {
       string possibleMoves = [];
 
